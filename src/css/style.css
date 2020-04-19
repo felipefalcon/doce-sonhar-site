@@ -1,0 +1,277 @@
+    html, body{
+        min-height: 100%;
+        font-family: 'Trebuchet MS' !important;
+	    scroll-behavior: smooth;
+    }
+    
+    body{
+        font-family: 'Trebuchet MS' !important;
+        scroll-behavior: smooth;
+    }
+
+    #logo-img{
+        position: absolute;
+        top: 8px;
+        background-color: white;
+        border-radius: 8px;
+        left: 3%;
+    }
+
+    @media only screen and (max-width: 800px) {
+        #logo-img{
+            display: none;
+        }
+        .navbar-brand{
+            margin: 0;
+            padding: 4px;
+            width: 0px !important;
+        }
+        .navbar-expand-sm .navbar-nav {
+            margin: 0;
+        }
+    }
+    
+    .bg-dark {
+        background-color: white !important;
+    }
+
+    .navbar{
+        padding: 0;
+        margin-top: -1px;
+        border-bottom: 1px dotted #d576974d !important;
+    }
+
+    .navbar-nav{
+        padding-right: 0;
+    }
+
+    .navbar-dark .navbar-toggler {
+        outline: none;
+    }
+
+    .navbar-dark .navbar-nav .nav-link{
+        transition: 0.5s;
+        color: #e18dae80;
+        font-weight: 600;
+        min-width: 114px;
+        text-align: center;
+        background-color: white;
+        padding: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        outline: none;
+        text-transform: uppercase;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover{
+        transition: 0.75s;
+        color: white;
+        background-color: #E05F91;
+        outline: none;
+    }
+
+    .nav-item .active{
+        color: white !important;
+        background-color: #E05F91 !important;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url("menu.png");
+        outline: none;
+    }
+
+    .language-button, .language-button-on {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        position: fixed;
+        right: 0;
+        margin-right: 84px;
+        width: 48px;
+        height: 32px;
+        background-color: #e0e3ef;
+        top: 8px;
+        text-align: center;
+        padding-top: 3px;
+        font-size: 17px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #937d8b;
+        transition: 0.5s;
+        cursor: pointer;
+        z-index: 9999;
+        border: none;
+        padding-bottom: 3px;
+        outline: none;
+    }
+
+    .language-button-on {
+        background-color: #E05F91;
+        color: white;
+    }
+
+    .language-button:hover{
+        background-color: #E05F91;
+        color: white;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    @media only screen and (max-width: 840px) {
+        .language-button{
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 560px) {
+        .language-button{
+            display: block;
+        }
+    }
+
+    #header-img-div{
+        background: url(https://i.imgur.com/CVtbOFM.png);
+        background-size: cover;
+        height: 100vh;
+        box-shadow: 0px -100px 48px white inset;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .board-content-div{
+        background-color: white;
+        min-height: 100vh;
+        margin-top: 64px;
+    }
+
+    #title-board-p, #title-2-board-p{
+        font-size: 2.4em !important;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #E05F91;
+    }
+
+    #title-2-board-p{
+        font-size: 2em !important;
+    }
+
+    #text-board-div, #text-2-board-div{
+        color: #6f8ea8;
+        padding: 64px;
+        text-align: justify;
+        border: 1px dotted #d576974d;
+        border-radius: 6px;
+    }
+
+    #text-2-board-div{
+        padding: 48px;
+    }
+
+    @media only screen and (max-width: 640px) {
+        #text-board-div{
+            padding: 24px;
+        }
+        #text-2-board-div{
+            padding: 12px;
+        }
+    }
+
+    @media only screen and (max-width: 380px) {
+        #text-board-div{
+            padding: 16px;
+        }
+        #text-2-board-div{
+            padding: 8px;
+        }
+        .media-body {
+            font-size: 0.9em;
+            flex: auto;
+        }
+        footer{
+            font-size: 0.9em;
+        }
+    }
+
+    .pb-3, .py-3 {
+        padding-bottom: 0 !important;
+    }
+
+    #item-board-div{
+        background-color: #e0e3ef99;
+        border-left: 6px solid #eceef5;
+        padding: 24px;
+        padding-top: 24px;
+        padding-top: 32px;
+        transition: 0.5s;
+        margin-bottom: 22px;
+    }
+
+    #item-board-div:hover{
+        background-color: #c5cadd99;
+        border-left: 6px solid #E05F91;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+    }
+
+    footer{
+        margin: auto;
+        text-align: center;
+        color: #6f8ea8;
+        background-color: #FFF;
+        border-top: 1px dashed #f2d5e0;
+    }
+
+    .fa {
+        padding: 6px;
+        font-size: 28px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 14px 4px;
+        border-radius: 8px;
+        opacity: 0.2;
+        transition: 0.5s;
+    }
+      
+    .fa:hover {
+        opacity: 0.9;
+        color: white;
+        text-decoration:none;
+        transition: 0.25s; 
+    }
+      
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+      
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+      
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+
+    .fa-tumblr {
+        background: #2c4762;
+        color: white;
+    }
+
+    footer p{
+        margin: 0;
+        padding-bottom: 12px;
+        font-size: 0.9em;
+        font-weight: bolder;
+    }
